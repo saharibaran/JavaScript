@@ -1,0 +1,17 @@
+let int1 = prompt("Enter your first number:")
+let int2 = prompt("Enter your first number:")
+let int3 = prompt("Enter your first number:")
+/* Putting + make the result integer:
+const int1 = +prompt("Enter your first number:")
+const int2 = +prompt("Enter your first number:")
+const int3 = +prompt("Enter your first number:")
+ */
+var firstnum = parseInt(int1)
+var secondnum = parseInt(int2)
+var thirdnum = parseInt(int3)
+sum  = parseInt(firstnum + secondnum + thirdnum)
+product = parseInt(firstnum * secondnum * thirdnum)
+average = parseInt(sum / 3)
+console.log(sum)
+console.log(product)
+console.log(average)
